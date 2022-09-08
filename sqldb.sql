@@ -39,7 +39,7 @@ create table cliente_empresa(
 	foreign key (id_empresa) references empresa(id_empresa)
 );
 
-/*password 12345*/
+/*password 123456*/
 insert into usuario(usuario,rol,password) values ('admin','ADM','$2a$12$LY7mc8QEDym8h0GnFVGxF.HkCAQDgR2HNb/rZJIrBj2t0aKGIJp1S');
 /*password user*/
 insert into usuario(usuario,rol,password) values ('user','USER','$2a$12$I2aw66cEzTzZkBUpr7/7vOiCDgDCiCUmIXoicyeoH/E91XmBXBeJO');
